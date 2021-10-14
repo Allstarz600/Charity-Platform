@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from saintanthonytrust.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jun 2020 07:55:56 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Saint Anthony Trust</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="jquery.html"></script>
+<script type="text/javascript">
+                $(document).ready(function()
+                {
+                $("#doLogin").click(function(){
+                
+                var element = $(this);
+                var Id = element.attr("id");
+                
+                var name = $("#name").val();
+                var email= $("#email").val();
+                var message= $("#message").val();
+				
+                var dataString = 'name='+ name + '&email='+ email + '&message='+ message; 
+                //alert(dataString); 
+                if(name=="" || email=="" || message=="")
+                {
+                alert("Please Enter All Details");
+                }
+                else
+                {
+                $("#flash").show();
+                $("#flash").fadeIn(400).html('<img src="../v3hyundai.com/images/ajax-loader.html"> Please Wait.....');
+                
+                $.ajax({
+                type: "POST",
+                url: "contactsend.php",
+                data: dataString,
+                cache: false,
+                success: function(html){
+                $("#flash").html(html);
+                }
+                });
+                }
+                return false;});
+				});
+</script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="logo">
+            <a href="index-2.html"><img src="images/logo.jpg" border="0" /></a>
+        </div>
+        <div class="logo_home" >
+        <li style="margin:8px 0px 0px 550px;"><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="http://www.facebook.com/pages/Oasis-foundation/269255233175366" target="_blank"><img src="images/fb.jpg" width="30" height="29" border="0" /></a></li>
+        <li><a href="https://twitter.com/swalfgroup" target="_blank"><img src="images/twit.jpg" width="32" height="31" border="0" /></a></li>
+        <li><a href="http://www.linkedin.com/groups/Swalf-Group-4383156?gid=4383156&amp;mostPopular=&amp;trk=tyah" target="_blank"><img src="images/in.jpg" width="30" height="29" border="0" /></a></li>
+        <li><a href="index-2.html"><img src="images/home.png"/></a></li>
+      </div>
+        <div class="navigation">
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="why_us.html">Why Us</a></li>
+            <li><a href="our_works.html">Our works</a></li>
+            <li><a href="suggestions.html">Suggestions</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="vision.html">Vision</a></li>
+            <li><a href="donors.html">Donors</a></li>
+            <li><a href="contact.html" style="background:#ff7800; color:#FFF;">Contact Us</a></li>
+        </div>
+    </div>
+    
+    <div class="banner">
+    	<img src="images/banner_cont.jpg" />
+    </div>
+    	<div class="content">
+    	<div class="left-cont1">
+            	<li style="font-size:18px; padding:25px 20px 0px 40px;"><br><br>Contact Us</li>
+                <li style="font-size:16px; font-weight:bold; color:#ff7800;">  St. Anthony Trust</li>
+                <li>
+                    St. Anthony Trust<br/>
+No: 003 Kadavekar Apartment<br>
+Behind Powai Hospital<br>
+Opp to IIT Main Gate<br>
+Powai- 400076<br>
+Mumbai- India
+                </li>
+
+                <li>Mob:9940130690</li>
+                <li>email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:donor@stanthonytrust.com" style="color:#000000;">  donor@stanthonytrust.com</a></li>
+                  <li>email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:feedback@stanthonytrust.com" style="color:#000000;">  feedback@stanthonytrust.com</a></li>
+                <li>website:&nbsp;&nbsp; www.www.stanthonytrust.com</li>
+                <li style="font-size:16px; font-weight:bold; color:#ff7800;"><span style="font-size:16px; font-weight:bold; color:#ff7800; list-style:none">founder</span></li>
+                <li><span style="list-style:none">Mr.J.P.Senthilkumar</span></li>
+                <li><a href="mailto:jps@swalfgroup.com" style="color:#000000;">jps@swalfgroup.com</a>,<a href="mailto:sales@swalfgroup.com" style="color:#000000;">sales@swalfgroup.com</a></li>
+                
+    	</div>
+    	<div class="right-cont1">
+          <div class="right-cont-img" >
+            <img src="images/swalflogo.jpg" />
+            <img src="images/contect-img1.jpg" />
+            
+            
+          </div>
+          <div class="right-cont-text"></div>
+        </div>
+        <div class="left-cont2">
+        <li>
+        <iframe width="350" height="210" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.610079192042!2d72.9143091147305!3d19.124754287059933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f91a9f8dd997c1!2sIIT%20Main%20Gate%20Powai!5e0!3m2!1sen!2sin!4v1593159884463!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br /><small><a href="https://www.google.com/maps/search/https:%2F%2Fwww.google.com%2Fmaps%2Fsearch%2FSt.%2BAnthony%2BTrust%2BNo:%2B003%2BKadavekar%2BApartment%2BBehind%2BPowai%2BHospital%2BOpp%2Bto%2BIIT%2BMain%2BGate%2BPowai-%2B400076%2BMumbai-%2BIndia%2F@19.1253185,72.9166009,18.82z/@19.125413,72.9146333,17z/data=!3m1!4b1" style="color:#0000FF;text-align:left">View Larger Map</a></small></li>
+        </div>
+    	</div>
+   	<div class="imagecc" style="margin-bottom:10px;"></div>
+    
+  <div class="bottom">
+        	<li style="font-family:Arial; font-size:12px; color:#FFF; list-style:none; padding:7px 0px 0px 370px;">www.saintanthonytrust.com</li>
+        </div>
+</div>
+</body>
+
+<!-- Mirrored from saintanthonytrust.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jun 2020 07:56:00 GMT -->
+</html>
